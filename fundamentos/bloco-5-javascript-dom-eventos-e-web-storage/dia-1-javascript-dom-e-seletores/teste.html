@@ -45,23 +45,23 @@
     </section>
   </main>
   <script>
-    // exercicio 1
+
 
     function mudaTexto() {
-      let paragrafo = document.getElementsByTagName("p")[1];
-      paragrafo.innerHTML = "Mudar para a praia"
+      let paragrafo = document.getElementsByTagName('p')[1];
+      paragrafo.innerHTML = "Mudar para a praia";
     }
     mudaTexto();
 
-    // exercicio 2
+
 
     function mudarCorQuadrado() {
       let corAmarelo = document.getElementsByClassName('main-content')[0];
-      corAmarelo.style.background = "(rgb(76,164,109)";
+      corAmarelo.style.background = 'rgb(76,164,109)';
     }
     mudarCorQuadrado();
 
-    // exercicio 3
+
 
     function mudarCorVermelho() {
       let corBranco = document.getElementsByClassName('center-content')[0];
@@ -69,33 +69,32 @@
     }
     mudarCorVermelho();
 
-    // exercicio 4
+
 
     function corrigir() {
-      let correct = document.getElementsByTagName("h1")[0];
-      correct.innerHTML = "Exercício 5.1 - JavaScript";
+      let correct = document.getElementsByTagName('h1')[0];
+      correct.innerHTML = 'Exercício 5.1 - JavaScript';
     }
     correct();
 
-    // exercicio 5
+
 
     function modmai() {
-      let maiuscula = document.getElementsByTagName("p")[0];
+      let maiuscula = document.getElementsByTagName('p')[0];
       maiuscula.innerHTML = maiuscula.innerHTML.toUpperCase();
 
     }
     modmai();
 
-    // exercicio 6 
 
-    function exibir ();
-    let tagp = document.getElementsByTagName ("p");
-    for (let index =0; index < tagp.length; index += 1){
+
+    function exibir();
+    let tagp = document.getElementsByTagName('p');
+    for (let index = 0; index < tagp.length; index += 1) {
       console.log(tagp[index].innerHTML);
     }
- 
-   exibir();
 
+    exibir();
 
 
 
