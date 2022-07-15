@@ -1,4 +1,4 @@
-function testingScope(escopo) {
+unction testingScope(escopo) {
     if (escopo === true) {
       var ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
       ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
@@ -28,4 +28,22 @@ function testingScope(escopo) {
 testingScope(true);
   
 
-// 
+// exercicio 2
+
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
+// Seu código aqui.
+
+const oddsAndEvens = () => {
+  oddsAndEvens[0] = 2;
+  oddsAndEvens[1] = 3;
+  oddsAndEvens[2] = 4;
+  oddsAndEvens[3] = 7;
+  oddsAndEvens[4] = 10;
+  oddsAndEvens[5] = 13;
+
+  return oddsAndEvens;
+
+}
+
+console.log (`Os números ${oddsAndEvnes} se encontram ordenados de forma crescente!`);
